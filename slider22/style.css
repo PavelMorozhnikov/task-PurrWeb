@@ -1,0 +1,73 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainSlider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color:white;
+}
+
+.leftBtn {
+    width: 20px;
+    height: 20px;
+}
+
+.rightBtn {
+    width: 20px;
+    height: 20px;
+}
+
+.band {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.window {
+    width: 800px;
+    overflow: hidden;
+}
+
+.band > img {
+    width: 800px;  
+}
+
+.dots {
+	position: absolute;
+	bottom: 55%;
+	left: 47%;
+}
+
+.dot {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #bbb;
+	margin: 0 3px;
+	display: inline-block;
+	cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.dot:hover {
+	background-color: #717171;
+}
+
+.active {
+	background-color: #717171;
+}
